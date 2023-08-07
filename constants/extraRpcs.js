@@ -3014,6 +3014,12 @@ export const extraRpcs = {
   1708: {
     rpcs: ["https://rpc.testnet.blockchain.or.th"]
   },
+  761412: {
+    rpcs: [
+      "https://mainnet-rpc.miexs.com",
+      "wss://mainnet-rpc.miexs.com/wss"
+    ]
+  } 
 };
 
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
